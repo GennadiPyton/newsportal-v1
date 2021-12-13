@@ -14,7 +14,13 @@ if ($path == "" OR $path == "index") {
 } elseIf ($path == 'logout') {
     //Выход
     $response = controllerAdmin::logoutAction();
-} else {
+}
+
+    //-------------------------------listNews
+elseif($path=='newsAdmin') {
+    $response=controllerAdminNews::NewsList();
+}
+else {
     // страница не существует
     $response = controllerAdmin::error404();
 }
