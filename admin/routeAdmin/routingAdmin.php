@@ -20,6 +20,16 @@ if ($path == "" OR $path == "index") {
 elseif($path=='newsAdmin') {
     $response=controllerAdminNews::NewsList();
 }
+
+//-----------------add news
+    elseif($path=='newsAdd') {
+        $response=controllerAdminNews::newsAddResult();
+
+}
+elseif($path == 'newsAddResult') {
+    $response = controllerAdminNews::newsAddResult();
+}
+
 else {
     // страница не существует
     $response = controllerAdmin::error404();
