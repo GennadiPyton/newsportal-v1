@@ -23,7 +23,7 @@ elseif($path=='newsAdmin') {
 
 //-----------------add news
     elseif($path=='newsAdd') {
-        $response=controllerAdminNews::newsAddResult();
+        $response=controllerAdminNews::newsAddForm();
 
 }
 elseif($path == 'newsAddResult') {

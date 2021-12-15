@@ -10,7 +10,7 @@ class modelAdminNews{
         return $arr;
     }
 
-}//class
+
 
 //-------------Add
 public static function getNewsAdd() {
@@ -36,3 +36,4 @@ public static function getNewsAdd() {
     }
     return $test;
 }
+}//class
