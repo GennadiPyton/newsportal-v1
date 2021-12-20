@@ -4,9 +4,12 @@ body {
   font-family: Arial; 
   }
 h2 {
+
   font-family: monospace;
   color: #606060;
-  
+  min-height: 100px;
+  width: 150px;
+  text-align: center;
 }
 
 /* HEADER =================================================================== */
@@ -68,7 +71,7 @@ a {
   text-align: center;
 }
 .one ul {
-  background: #AB0000;
+  background: #bb3232;
 }
 .one ul a {
   color: white;

@@ -29,7 +29,8 @@
         <table class='table table-bordered'>
             <tr>
                 <td>News Title</td>
-                <td><input type='text' name='title' class='form-control' required></td>
+                <td><input type='text' name='title' class='form-control' required value="<?php
+                echo $detail['title']; ?>"></td>
 </tr>
 <tr>
     <td>News Text</td>
